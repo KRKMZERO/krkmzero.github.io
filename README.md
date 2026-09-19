@@ -4,9 +4,9 @@
 
 GitHub Pagesのリポジトリを使って自身の利用サイトとSNSの短縮URLをまとめました。
 
-全てのリンクはhttps://krkmzero.github.io/　から各フォルダにつながります。
+全てのリンクはhttps://krkmzero.github.io/ から各フォルダにつながります。
 
 いちおう
-https://krkmzero.github.io　に間違ってアクセスしてもバグなどが起こらないように
+https://krkmzero.github.io に間違ってアクセスしてもバグなどが起こらないように
 ページも設定しています。
 
