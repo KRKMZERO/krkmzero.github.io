@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>黒髪零</title>
+  <style>
+  :root {
+    color-scheme: dark; /* ← ここは「ダークモード基準です」と伝えるだけ */
+    --bg: #121212;      /* 背景色 */
+    --fg: #e5e5e5;      /* 文字色 */
+    --card-bg: #1e1e1e; /* カードの背景 */
+    --card-bd: #333;    /* カードの枠線 */
+    --accent: #3b82f6;  /* アクセントカラー（未使用だけどリンクやボタンに使える） */
+    --muted: #aaa;      /* 補助テキスト色 */
+    --table-th: #2a2a2a;/* テーブルのヘッダー背景 */
+    --table-bd: #444;   /* テーブルの枠線 */
+  }
+
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, emoji;
+      margin: 0;
+      padding: 24px;
+      line-height: 1.6;
+      background: var(--bg);
+      color: var(--fg);
+    }
+
+    .wrap { max-width: 900px; margin: 0 auto; }
+    h1 { font-size: 1.6rem; margin: 0 0 12px; }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-bd);
+      border-radius: 14px;
+      padding: 16px;
+      margin: 12px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+    h2 { margin-top: 0; }
+    .pill {
+      padding: 4px 8px;
+      background: #333;
+      border-radius: 999px;
+      font-size: 12px;
+    }
+    .muted { color: var(--muted); }
+    code {
+      background: #2a2a2a;
+      color: #ddd;
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-size: 90%;
+    }
+
+    /* テーブル */
+    table { border-collapse: collapse; width: 100%; margin-top: 8px; }
+    th, td { border: 1px solid var(--table-bd); padding: 8px; text-align: left; }
+    th { background: var(--table-th); }
+
+    /* リンクボタン */
+    .link-button {
+      display: inline-block;
+      padding: 10px 18px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: 0.2s;
+    }
+
+    .link-button:hover {
+      filter: brightness(1.15);
+      transform: translateY(-1px);
+    }
+
+    .link-button:active {
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>特に何もありません。</h1>
+    <p class="muted"><span class="pill">(´_ゝ｀)</span></p>
+
+    <div class="card">
+      <h2>このページは</h2>
+      <p>
+        間違ってアクセスした人向けにページを差し込んでます<br>
+        短縮URLとしてこのGitHub Pagesのリポジトリを使っています。<br>
+        Thank you!
+      </p>
+    </div>
+
+    <div class="card">
+      <h2> </h2>
+      <ul>
+        <li>いろいろな事やってます！</li>
+      </ul>
+    </div>
+
+  <div class="card">
+  <h2>リンク</h2>
+
+  <a class="link-button"
+     href="https://krkmzero.github.io/Homepage"
+     target="_blank"
+     rel="noopener">
+    ホームページ
+  </a>
+
+  <a class="link-button"
+     href="https://github.com/KRKMZERO/krkmzero.github.io"
+     target="_blank"
+     rel="noopener">
+    GitHubリポジトリ
+  </a>
+</div>
+</body>
+</html>
